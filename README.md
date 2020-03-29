@@ -2,7 +2,7 @@
 
 To-Do
 
-- [ ] unlimited ammo
+- [X] unlimited ammo
 - [ ] Admin panel
 - [ ] particle system
 - [ ] foilage system
