@@ -1,0 +1,1 @@
+vehicle player addEventHandler ["Fired", { [] spawn { _hint = currentWeapon vehicle player; _ammoHint = player ammo currentWeapon player; hint("AMMO: " + (str _ammoHint)); sleep 1; hint(""); player setAmmo [currentWeapon player, _ammoHint + 1];}; }]
